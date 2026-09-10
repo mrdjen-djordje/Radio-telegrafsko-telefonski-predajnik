@@ -17827,7 +17827,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 114.3 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -21941,7 +21941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 237.49 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -22279,7 +22279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 149.86 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -25985,7 +25985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 30.48 309.88 0)
 			(hide yes)
 			(show_name no)
@@ -26660,7 +26660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 246.38 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -27940,6 +27940,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+6V")
+		(at 25.4 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c55b019-2616-499c-8cad-b3985852742a")
+		(property "Reference" "#PWR016"
+			(at 25.4 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+6V"
+			(at 25.4 270.002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
+			(at 25.4 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2906bd01-7fcb-4ad0-ade5-246d375fc27a")
+		)
+		(instances
+			(project "projekat 1"
+				(path "/74b4ec7a-02ca-4148-b3fb-b94fa07f486f"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 110.49 72.39 0)
 		(unit 1)
@@ -28052,7 +28129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 69.85 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -29328,7 +29405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 41.91 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -29711,85 +29788,6 @@
 			(project "projekat 1"
 				(path "/74b4ec7a-02ca-4148-b3fb-b94fa07f486f"
 					(reference "RFC_3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 25.4 274.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91c1d2e7-2edc-44f3-9b7e-f74c5885c6ab")
-		(property "Reference" "#PWR016"
-			(at 25.4 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 25.4 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 25.4 274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c99227e-6e58-4f06-a3b2-182439db35f7")
-		)
-		(instances
-			(project "projekat 1"
-				(path "/74b4ec7a-02ca-4148-b3fb-b94fa07f486f"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -32880,7 +32878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 172.72 266.7 0)
 			(hide yes)
 			(show_name no)
@@ -33129,7 +33127,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "220"
 			(at 27.94 279.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33377,7 +33375,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 157.48 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -33800,7 +33798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 36.195 314.96 90)
 			(hide yes)
 			(show_name no)
@@ -37318,7 +37316,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dbab4477-032f-4982-b090-0f2fa94511c7")
 		(property "Reference" "#PWR03"
 			(at 361.95 72.39 0)
@@ -37332,7 +37329,7 @@
 			)
 		)
 		(property "Value" "+6V"
-			(at 361.95 63.5 0)
+			(at 361.95 64.262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39198,7 +39195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 228.6 227.33 0)
 			(hide yes)
 			(show_name no)
