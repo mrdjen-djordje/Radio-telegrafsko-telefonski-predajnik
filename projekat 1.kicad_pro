@@ -735,7 +735,7 @@
         "uuid": "74b4ec7a-02ca-4148-b3fb-b94fa07f486f"
       }
     ],
-    "used_designators": "R_in1,R_f1,D1,decoup_+6V1,C2_tune2-4,L1,L3-11,BZ1,CS3_3,var_att_15mVrms_4,carrier_null2,R33-85,CS2_3,var_att_300mVrms1-2,C_audio_coupling1,XTAL9-16,Q1-9,CP1_3,C_dc1-2,J1-4,R_bleed_12V1,CP5-8,var_att_100mVrms_3,MC1496_mix2,C15_tune2,K1-2,SW1-15,U1-15,MC1496_mod1-2,CP3_3,12V_decoupling1,C2_3,var_att1,TR_6.35mm1,var_att_100mVrms1,carrier_null_3,C_d_op_2_1-2,C1-2,C24-61,C1_3,CS1_3,var_att_60mVrms1-2,VCC_decoup_12v1,PWR_2,L1_3,#PWR1-86,var_att_15mVrms1,CP2_3,RV1,R_head1,C_lo_vfo1,R_bleed1,RFC_5-8,CS4-6,C_d_op2-5",
+    "used_designators": "R_in1,R_f1,D1,decoup_+6V1,C2_tune2-4,L1,L3-11,var_att_15mVrms_4,BZ1,CS3_3,carrier_null2,R33-85,CS2_3,var_att_300mVrms1-2,C_audio_coupling1,XTAL9-16,Q1-9,CP1_3,C_dc1-2,J1-4,R_bleed_12V1,CP5-8,var_att_100mVrms_3,MC1496_mix2,C15_tune2,K1-2,SW1-15,U1-15,MC1496_mod1-2,CP3_3,12V_decoupling1,C2_3,var_att1,TR_6.35mm1,var_att_100mVrms1,carrier_null_3,C_d_op_2_1-2,C1-2,C24-61,C1_3,CS1_3,var_att_60mVrms1-2,VCC_decoup_12v1,PWR_2,L1_3,#PWR1-86,var_att_15mVrms1,CP2_3,RV1,R_head1,C_lo_vfo1,R_bleed1,RFC_5-8,CS4-6,C_d_op2-5",
     "variants": []
   },
   "sheets": [
