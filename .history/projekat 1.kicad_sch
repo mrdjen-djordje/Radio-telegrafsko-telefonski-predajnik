@@ -7550,6 +7550,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 19.05) (xy 45.72 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ada1ec1-ebc9-4af9-8fb1-d171b3a0ebaa")
+	)
+	(wire
+		(pts
 			(xy 355.6 125.73) (xy 358.14 125.73)
 		)
 		(stroke
@@ -11790,16 +11800,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 25.4) (xy 45.72 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ce06fa7-6a04-43cd-bc6c-6472b6c7ce90")
-	)
-	(wire
-		(pts
 			(xy 161.29 33.02) (xy 161.29 43.18)
 		)
 		(stroke
@@ -15272,6 +15272,16 @@
 			(justify right bottom)
 		)
 		(uuid "c8a28d0e-a889-4aa2-8b20-68bd2628e0dc")
+	)
+	(label "12V_supply_1"
+		(at 45.72 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ceef65d0-cea8-448a-9ccb-07fbbf70fd9f")
 	)
 	(label "output_amplification_cw"
 		(at 350.52 248.92 180)
@@ -23365,7 +23375,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 38.1 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -32602,7 +32612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 26.67 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -35311,84 +35321,6 @@
 			(project "projekat 1"
 				(path "/74b4ec7a-02ca-4148-b3fb-b94fa07f486f"
 					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 45.72 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c915ba69-69c9-4ea2-b095-9efb4eae5102")
-		(property "Reference" "#PWR013"
-			(at 45.72 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 45.72 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 45.72 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8de3f171-44c7-48e0-87f4-46f8686b6df4")
-		)
-		(instances
-			(project "projekat 1"
-				(path "/74b4ec7a-02ca-4148-b3fb-b94fa07f486f"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
